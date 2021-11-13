@@ -1,0 +1,142 @@
+@import url('"https: //fonts.googleapis.com/css2? family = Abrir + Sans: ital, wght @ 1.300 & display = swap "rel =" stylesheet ">');
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border:0;
+    text-decoration: none;
+   
+}
+body {
+    background-image: url(../img/iriri.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: local;
+    background-blend-mode: darken;
+    font-family: 'Pacifico', cursive;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+header { 
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+font-weight: 80%;
+font-size: 80px;
+color: rgb(255, 254, 253);
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+}
+
+#textoprincipal {
+display: flex;
+flex-direction: column;
+gap: 20px;
+width: 100%;
+height: auto;
+justify-content: center;
+align-items: center;
+}
+
+.principal {
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+font-size: 16px;
+width: 70%;
+height: auto;
+color: rgb(252, 244, 244);
+border: solid rgb(0, 0, 0);
+background-color: rgb(124, 62, 62);
+background-position: center;
+padding: 20px;
+margin: 10px;
+border-radius: 3px;
+}
+
+#curiosidades {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    width: 70%;
+    height: auto;
+    color: rgb(252, 244, 244);
+    border: solid rgb(0, 0, 0);
+    background-color: rgb(124, 62, 62);
+    padding: 20px;
+    margin-bottom: 100px;
+    border-radius: 3px;
+    }
+
+#curiosidades h2 { 
+    font-family: 'Pacifico', cursive; 
+    color: rgb(17, 15, 15);
+}
+h2:hover {
+    transform: scale(1.02);
+    filter: brightness(120%);
+    cursor: default;
+}
+#curiosidades ul {
+    list-style: none;
+    
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right,  rgb(97, 75, 46) 0%,rgb(150, 75, 75) 68%,rgb(119, 75, 52) 94%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc578', endColorstr='#d65611',GradientType=1 ); 
+        position: fixed;
+    bottom: 0px;
+    padding: 3px;
+    margin-top: 2px;
+    /* display: inline-block; */
+
+}
+
+.todentro p { 
+    text-align: center;
+    color: rgb(12, 12, 12);
+    font-size: 22px;
+}
+
+.insta { 
+position: fixed;
+width: 31px;
+height: 31px;
+bottom: 4px;
+right: 220px;
+font-size: 16px;
+}
+
+.instanome {
+    position: fixed;
+    width: 45px;
+    height: 35px;
+    bottom: 0px;
+    right: 164px;
+    font-size: 20px;
+    color: rgb(239, 238, 245);
+}
